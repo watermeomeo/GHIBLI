@@ -1,0 +1,120 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Poppins:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+p{font-family: 'Montserrat', sans-serif;}
+h1, h2, h3, h4, h5{font-family: 'Poppins', sans-serif;}
+i{
+	font-family: 'Montserrat', sans-serif, Thin 100 italic;
+}
+.banner{
+	background:#23AAFF;
+	height: 100vh;
+	background-image: url("../img/1200px-Studio_Ghibli_logo.svg.png");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+}
+#navbar{
+	top: 0;
+	z-index: 1000;
+	transition: 1s;
+	left: 0;
+} 
+.founder{
+	justify-content: center;
+	align-content: center;
+}
+.founder .card{
+	background:#23AAFF;
+}
+.founder .card img{
+	padding: 5px
+}
+.modal h5, span{
+	color:#23AAFF;
+}
+.product{
+	margin-top: 100px;
+}
+.product h1{
+	padding: 30px
+}
+.product h5{
+	color:#23AAFF;
+}
+.tag{
+	background: #FF4F58; opacity: 80%;
+	padding: 3px 5px;
+	bottom: 30%;
+	border-radius: 0 5px 5px 0
+}
+.button{
+	background-color: inherit;
+	border: none;
+}
+.button .card:hover{
+	box-shadow: 5px 0 10px 5px gray;
+}
+.about h3{
+	color: #23AAFF;
+	
+}
+.achieve{
+	background: #23AAFF;
+	justify-content: center;
+	align-content: center;
+	height: 500px;
+	border-radius: 10px
+}
+.content{
+	padding: 30px;
+	color: white;
+}
+.content p{
+	font-size: 20px;
+	color: #0F0F0F;
+	margin: 15px 20px 0; 
+}
+.content ul{
+	list-style: none;
+	
+}
+.two{
+	border-left: solid 1.5px white;
+	border-right: solid 1.5px white;
+}
+.achieve h1{
+	margin: 100px 0 10px;
+	padding-top: 30px
+}
+.footer{
+	height: 400px;
+	background: #23AAFF;
+	margin-top: 100px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin: 5px 10px
+}
+.footer a img{
+	transition: 0.5s 
+}
+.footer a img:hover{
+	filter: drop-shadow(3px 3px 6px #273176)
+}
+@media screen and (max-width : 416px ){
+	.tag{
+		bottom: 42%
+	}
+	.founder .card{
+		margin: 5px 0 2px 5px
+	}
+	.achieve{
+		height: 800px
+	}
+}

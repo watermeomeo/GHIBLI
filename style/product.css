@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&family=Poppins:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+p{font-family: 'Montserrat', sans-serif;}
+h1, h2, h3, h4, h5{font-family: 'Poppins', sans-serif;}
+i{
+	font-family: 'Montserrat', sans-serif, Thin 100 italic;}
+.banner{
+	background: #23AAFF;
+	height: 150px
+}
+#navbar{
+	z-index: 1000;
+	transition: 1s;
+}
+.poster{
+	margin: 100px auto;
+	width: 1200px
+}
+.card{
+	border: none;
+	margin: 0 auto
+}
+.card-title{
+	height: 55px
+}
+.card-text{
+	height: 35px
+}
+.footer{
+	height: 400px;
+	background: #23AAFF;
+	margin-top: 100px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin: 5px 10px
+}
+.footer a img{
+	transition: 0.5s 
+}
+.footer a img:hover{
+	filter: drop-shadow(3px 3px 6px #273176)
+}
+@media screen and (max-width : 416px ){
+	#poster{
+		width: 100vw
+	}
+}
